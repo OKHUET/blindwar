@@ -1,0 +1,229 @@
+{
+
+	"menu" :
+	{
+		"main_menu" :
+		{
+			"reply_markup" : 
+			{
+				"keyboard" : 
+				[
+					[
+						{
+							"text" : "В БОЙ"
+						}
+					],
+					[
+						{
+							"text" : "МАГАЗИН"
+						},
+						{
+							"text" : "ХАРАКТЕРИСТИКИ"
+						}
+					],
+					[
+						{
+							"text" : "КАК ИГРАТЬ"
+						}
+					]
+				],
+				"resize_keyboard" : true
+			} 
+		},
+		
+		"workshop_menu" :
+		{
+			"reply_markup" : 
+			{
+				"keyboard" : 
+				[
+					[
+						{
+							"text" : "КУПИТЬ ПРЕДМЕТЫ"
+						},
+						{
+							"text" : "ПОСМОТРЕТЬ ИНВЕНТАРЬ"
+						}
+					],
+					[
+						{
+							"text" : "НАЗАД"
+						}
+					]
+				],
+				"resize_keyboard" : true
+			} 
+		},
+		
+		"shop_menu" :
+		{
+			"reply_markup" : 
+			{
+				"keyboard" : 
+				[
+					[
+						{
+							"text" : "КУПИТЬ ОРУЖИЕ"
+						},
+						{
+							"text" : "КУПИТЬ ЭКИПЕРОВКУ"
+						}
+					],
+					[
+						{
+							"text" : "НАЗАД"
+						}
+					]
+				],
+				"resize_keyboard" : true
+			} 
+		},
+		
+		"back_menu" :
+		{
+			"reply_markup" : 
+			{
+				"keyboard" : 
+				[
+					[
+						{
+							"text" : "НАЗАД"
+						}
+					]
+				],
+				"resize_keyboard" : true
+			} 
+		},
+		
+		"buy_equipment_menu" :
+		{
+			"reply_markup" : 
+			{
+				"keyboard" : 
+				[
+					[
+						{
+							"text" : "ЩИТ"
+						},
+						{
+							"text" : "ЛЕЧЕНИЕ"
+						}
+					],
+					[
+						{
+							"text" : "НАЗАД"
+						}
+					]
+				],
+				"resize_keyboard" : true
+			} 
+		},
+		
+		"buy_shield_menu" :
+		{
+			"reply_markup" : 
+			{
+				"keyboard" : 
+				[
+					[
+						{
+							"text" : "ПАССИВНЫЙ"
+						},
+						{
+							"text" : "АКТИВНЫЙ"
+						}
+					],
+					[
+						{
+							"text" : "ПОМОЩЬ"
+						}
+					],
+					[
+						{
+							"text" : "НАЗАД"
+						}
+					]
+				],
+				"resize_keyboard" : true
+			} 
+		},
+		
+		"buy_heal_menu" :
+		{
+			"reply_markup" : 
+			{
+				"keyboard" : 
+				[
+					[
+						{
+							"text" : "ЭНЕРГОСТИМУЛЯТОРЫ"
+						},
+						{
+							"text" : "ЭНЕРГООБСОРБЕНТЫ"
+						}
+					],
+					[
+						{
+							"text" : "ПОМОЩЬ"
+						}
+					],
+					[
+						{
+							"text" : "НАЗАД"
+						}
+					]
+				],
+				"resize_keyboard" : true
+			} 
+		},
+	
+		"pre_bag_menu" :
+		{
+			"reply_markup" : 
+			{
+				"keyboard" : 
+				[
+					[
+						{
+							"text" : "СУМКА"
+						},
+						{
+							"text" : "НАДЕТЫЕ ПРЕДМЕТЫ"
+						}
+					],
+					[
+						{
+							"text" : "НАЗАД"
+						}
+					]
+				],
+				"resize_keyboard" : true
+			} 
+		},
+	
+		"choose_slot_menu" :
+		{
+			"reply_markup" : 
+			{
+				"keyboard" : 
+				[
+					[
+						{
+							"text" : "СЛОТ1"
+						},
+						{
+							"text" : "СЛОТ2"
+						}
+					],
+					[
+						{
+							"text" : "НАЗАД"
+						}
+					]
+				],
+				"resize_keyboard" : true
+			} 
+		}
+	}
+	
+}

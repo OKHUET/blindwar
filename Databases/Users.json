@@ -1,0 +1,344 @@
+{
+    "users": [
+        {
+            "last_name": "Laptev",
+            "first_name": "Victor",
+            "username": "fiCeVitka",
+            "id": 163301572,
+            "robot": {
+                "hitPoints": 0,
+                "maxHitPoints": 100,
+                "level": 1,
+                "experience": "05",
+                "weapon1": {
+                    "name": "Бластер",
+                    "id": "0",
+                    "type": "Weapon",
+                    "damage": "10",
+                    "cooldown": "0.3",
+                    "needLevel": "1",
+                    "price": "0"
+                },
+                "weaponCooldown1": 1499281317893,
+                "weapon2": null,
+                "weaponCooldown2": 0,
+                "equip1": null,
+                "equipCooldown1": 0,
+                "equip2": null,
+                "equipCooldown2": 0,
+                "effects": []
+            },
+            "state": "main_menu",
+            "money": 101,
+            "enemy": 209632390,
+            "chatId": 163301572,
+            "inventory": [
+                {
+                    "name": "Бластер",
+                    "id": "0",
+                    "type": "Weapon",
+                    "damage": "10",
+                    "cooldown": "0.3",
+                    "needLevel": "1",
+                    "price": "0"
+                }
+            ],
+            "swapItemN": 0
+        },
+        {
+            "last_name": "Khorkhordin",
+            "first_name": "Yaroslav",
+            "username": "huyariks",
+            "id": 209632390,
+            "robot": {
+                "hitPoints": 0,
+                "maxHitPoints": 100,
+                "level": 3,
+                "experience": "0540210",
+                "weapon1": null,
+                "weaponCooldown1": 0,
+                "weapon2": {
+                    "name": "Бластер",
+                    "id": "0",
+                    "type": "Weapon",
+                    "damage": "10",
+                    "cooldown": "0.3",
+                    "needLevel": "1",
+                    "price": "0"
+                },
+                "weaponCooldown2": 1499282113196,
+                "equip1": null,
+                "equipCooldown1": 0,
+                "equip2": null,
+                "equipCooldown2": 0,
+                "effects": []
+            },
+            "state": "main_menu",
+            "money": 196,
+            "enemy": 226664419,
+            "chatId": 209632390,
+            "inventory": [
+                {
+                    "name": "Бластер",
+                    "id": "0",
+                    "type": "Weapon",
+                    "damage": "10",
+                    "cooldown": "0.3",
+                    "needLevel": "1",
+                    "price": "0"
+                }
+            ],
+            "swapItemN": 0
+        },
+        {
+            "last_name": "Kadrov",
+            "first_name": "Ivan",
+            "id": 226664419,
+            "robot": {
+                "hitPoints": 0,
+                "maxHitPoints": 100,
+                "level": 3,
+                "experience": 0,
+                "weapon1": {
+                    "name": "Миномёт",
+                    "id": "13",
+                    "type": "Weapon",
+                    "damage": "60",
+                    "cooldown": "2",
+                    "needLevel": "3",
+                    "price": "1150"
+                },
+                "weaponCooldown1": 0,
+                "weapon2": null,
+                "weaponCooldown2": 0,
+                "equip1": {
+                    "name": "Энргостимулятор Э3",
+                    "id": "34",
+                    "type": "Heal",
+                    "attackN": "3",
+                    "cooldown": "12",
+                    "heal": "55",
+                    "additionalDamage": "0.5",
+                    "needLevel": "3",
+                    "price": "3000"
+                },
+                "equipCooldown1": 0,
+                "equip2": null,
+                "equipCooldown2": 0,
+                "effects": []
+            },
+            "state": "main_menu",
+            "money": 5850,
+            "enemy": null,
+            "chatId": 226664419,
+            "inventory": [
+                {
+                    "name": "Миномёт",
+                    "id": "13",
+                    "type": "Weapon",
+                    "damage": "60",
+                    "cooldown": "2",
+                    "needLevel": "3",
+                    "price": "1150"
+                },
+                {
+                    "name": "Энргостимулятор Э3",
+                    "id": "34",
+                    "type": "Heal",
+                    "attackN": "3",
+                    "cooldown": "12",
+                    "heal": "55",
+                    "additionalDamage": "0.5",
+                    "needLevel": "3",
+                    "price": "3000"
+                }
+            ],
+            "swapItemN": 0
+        },
+        {
+            "last_name": "Чепурная",
+            "first_name": "Дарья",
+            "id": 273182583,
+            "robot": {
+                "hitPoints": -60,
+                "maxHitPoints": 330,
+                "level": 9,
+                "experience": "087",
+                "weapon1": {
+                    "name": "Энергетическая пушка",
+                    "id": "15",
+                    "type": "Weapon",
+                    "damage": "130",
+                    "cooldown": "5.5",
+                    "needLevel": "8",
+                    "price": "3650"
+                },
+                "weaponCooldown1": 0,
+                "weapon2": {
+                    "name": "Атомная ракетная установка N2",
+                    "id": "8",
+                    "type": "Weapon",
+                    "damage": "140",
+                    "cooldown": "5.8",
+                    "needLevel": "9",
+                    "price": "12500"
+                },
+                "weaponCooldown2": 0,
+                "equip1": {
+                    "name": "Бронированый корпус Л4",
+                    "id": "30",
+                    "type": "ConstShield",
+                    "resist": "10",
+                    "needLevel": "8",
+                    "price": "6000"
+                },
+                "equipCooldown1": 0,
+                "equip2": {
+                    "name": "Энргообсорбент О8",
+                    "id": "49",
+                    "type": "CatchHeal",
+                    "cooldown": "18",
+                    "heal": "55",
+                    "needLevel": "8",
+                    "price": "8000"
+                },
+                "equipCooldown2": 0,
+                "effects": []
+            },
+            "state": "main_menu",
+            "money": 969859,
+            "enemy": 287009520,
+            "chatId": 273182583,
+            "inventory": [
+                {
+                    "name": "Энергетическая пушка",
+                    "id": "15",
+                    "type": "Weapon",
+                    "damage": "130",
+                    "cooldown": "5.5",
+                    "needLevel": "8",
+                    "price": "3650"
+                },
+                {
+                    "name": "Бронированый корпус Л4",
+                    "id": "30",
+                    "type": "ConstShield",
+                    "resist": "10",
+                    "needLevel": "8",
+                    "price": "6000"
+                },
+                {
+                    "name": "Энргообсорбент О8",
+                    "id": "49",
+                    "type": "CatchHeal",
+                    "cooldown": "18",
+                    "heal": "55",
+                    "needLevel": "8",
+                    "price": "8000"
+                },
+                {
+                    "name": "Атомная ракетная установка N2",
+                    "id": "8",
+                    "type": "Weapon",
+                    "damage": "140",
+                    "cooldown": "5.8",
+                    "needLevel": "9",
+                    "price": "12500"
+                }
+            ],
+            "swapItemN": 3
+        },
+        {
+            "last_name": "Селиванов",
+            "first_name": "Николай",
+            "id": 287009520,
+            "robot": {
+                "hitPoints": "330",
+                "level": 10,
+                "experience": null,
+                "weapon1": {
+                    "name": "Энергетическая пушка",
+                    "id": "15",
+                    "type": "Weapon",
+                    "damage": "130",
+                    "cooldown": "5.5",
+                    "needLevel": "8",
+                    "price": "3650"
+                },
+                "weaponCooldown1": 1486316243791,
+                "weapon2": {
+                    "name": "Атомная ракетная установка N2",
+                    "id": "8",
+                    "type": "Weapon",
+                    "damage": "140",
+                    "cooldown": "5.8",
+                    "needLevel": "9",
+                    "price": "12500"
+                },
+                "weaponCooldown2": 0,
+                "equip1": {
+                    "name": "Бронированый корпус Л4",
+                    "id": "30",
+                    "type": "ConstShield",
+                    "resist": "10",
+                    "needLevel": "8",
+                    "price": "6000"
+                },
+                "equipCooldown1": 0,
+                "equip2": {
+                    "name": "Энргообсорбент О8",
+                    "id": "49",
+                    "type": "CatchHeal",
+                    "cooldown": "18",
+                    "heal": "55",
+                    "needLevel": "8",
+                    "price": "8000"
+                },
+                "equipCooldown2": 0,
+                "effects": []
+            },
+            "state": "main_menu",
+            "money": "69850NaN330",
+            "enemy": 273182583,
+            "chatId": 287009520,
+            "inventory": [
+                {
+                    "name": "Энергетическая пушка",
+                    "id": "15",
+                    "type": "Weapon",
+                    "damage": "130",
+                    "cooldown": "5.5",
+                    "needLevel": "8",
+                    "price": "3650"
+                },
+                {
+                    "name": "Бронированый корпус Л4",
+                    "id": "30",
+                    "type": "ConstShield",
+                    "resist": "10",
+                    "needLevel": "8",
+                    "price": "6000"
+                },
+                {
+                    "name": "Энргообсорбент О8",
+                    "id": "49",
+                    "type": "CatchHeal",
+                    "cooldown": "18",
+                    "heal": "55",
+                    "needLevel": "8",
+                    "price": "8000"
+                },
+                {
+                    "name": "Атомная ракетная установка N2",
+                    "id": "8",
+                    "type": "Weapon",
+                    "damage": "140",
+                    "cooldown": "5.8",
+                    "needLevel": "9",
+                    "price": "12500"
+                }
+            ],
+            "swapItemN": 3
+        }
+    ]
+}
