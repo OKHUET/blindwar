@@ -23,7 +23,7 @@ function fight(bot, txt, users, userN)
 					enemy.robot.effects = calcDam.effects;
 					enemy.robot.hitPoints -= calcDam.damage;
 					if(calcDam<0) {
-						bot.sendMessage(user.id, 'Противник поглатил атаку и восстановил себе ' + -calcDam.damage + ' урона');
+						bot.sendMessage(user.id, 'Противник поглотил атаку и восстановил себе ' + -calcDam.damage + ' урона');
 						bot.sendMessage(enemy.id, 'Вы поглотили атаку противника и восстановили себе ' + -calcDam.damage + ' здоровья');
 					}
 				} else {
@@ -45,7 +45,7 @@ function fight(bot, txt, users, userN)
 					enemy.robot.effects = calcDam.effects;
 					enemy.robot.hitPoints -= calcDam.damage;
 					if(calcDam<0) {
-						bot.sendMessage(user.id, 'Противник поглатил атаку и восстановил себе ' + -calcDam.damage + ' урона');
+						bot.sendMessage(user.id, 'Противник поглотил атаку и восстановил себе ' + -calcDam.damage + ' урона');
 						bot.sendMessage(enemy.id, 'Вы поглотили атаку противника и восстановили себе ' + -calcDam.damage + ' здоровья');
 					} else {
 						bot.sendMessage(user.id, 'Перезарядка ' + (((user.robot.weaponCooldown2*1000 - user.robot.weapon2.cooldown + time)/1000) + "").slice(0,4) + ' сек.');
