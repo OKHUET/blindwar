@@ -42,7 +42,7 @@ function registration(msg, bot, users)
 			result['userN'] = searchData['userN'];
 			result['users'] = users;
 			if (txt === '/registration') {
-				bot.sendMessage(chatId, 'Вы уже зарегистрированы')
+				bot.sendMessage(chatId, 'Вы уже зарегистрированы', menu.main_menu);
 			}
 		}
 		
@@ -50,7 +50,7 @@ function registration(msg, bot, users)
 		if(result['users'] === undefined)
 		{
 			bot.sendMessage(chatId, 'Зарегистрируйтесь с помощью команды /registration')
-			return null//прерывание функции
+			return null; //прерывание функции
 		}
 		else
 		{

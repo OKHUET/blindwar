@@ -130,13 +130,6 @@ function win(user, enemy, bot)
 		bot.sendMessage(user.id, 'Вы получили уровень!', menu.main_menu);
 		user.robot.maxHitPoints = balance[user.robot.level - 1];
 	}
-	while(enemy.robot.experience >= balance.level_exp_need[enemy.robot.level - 1])
-	{
-		enemy.robot.level++;
-		enemy.robot.experience -= balance.level_exp_need[enemy.robot.level];
-		bot.sendMessage(enemy.id, 'Вы получили уровень!', menu.main_menu);
-		enemy.robot.maxHitPoints = balance[enemy.robot.level - 1];
-	}
 	var money = user.robot.level * 2 + enemy.robot.maxHitPoints - enemy.robot.hitPoints - user.robot.maxHitPoints + user.robot.hitPoints;
 	user.money += money;
 	bot.sendMessage(user.id, 'Вы получили ' + money + ' кредитов', menu.main_menu);
