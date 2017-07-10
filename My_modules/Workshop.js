@@ -46,11 +46,11 @@ function workshop(txt, user, bot)
 			}
 			if(user.robot.equip1 == undefined)
 			{
-				s += '\n\nЭкиперовка №1 : ПУСТО';
+				s += '\n\nЭкипировка №1 : ПУСТО';
 			}
 			else
 			{
-				s += "\n\nЭкиперовка №1:\n";
+				s += "\n\nЭкипировка №1:\n";
 				if (user.robot.equip1.type == 'ConstShield') {
 					s += user.robot.equip1.name + "\nЗащита: " + user.robot.equip1.resist;
 				}
@@ -66,11 +66,11 @@ function workshop(txt, user, bot)
 			}
 			if(user.robot.equip2 == undefined)
 			{
-				s += '\n\nЭкиперовка №2 : ПУСТО';
+				s += '\n\nЭкипировка №2 : ПУСТО';
 			}
 			else
 			{
-				s += "\n\nЭкиперовка №2:\n";
+				s += "\n\nЭкипировка №2:\n";
 				if (user.robot.equip2.type == 'ConstShield') {
 					s += user.robot.equip2.name + "\nЗащита: " + user.robot.equip2.resist;
 				}
