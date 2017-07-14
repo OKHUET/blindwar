@@ -11,16 +11,16 @@ var balance = jf.readFileSync('Databases/Balance.json');
 function registration(msg, bot, users)
 {
 	
-	//проверяем что сообщение получено из приватного чата
+	//провер¤ем что сообщение получено из приватного чата
 	if(msg.chat.type === 'private')
 	{
 		var result = [];
 		var chatId = msg.chat.id; //куда будем отсылать ответы
 		var searchData = my_funcs.IdBinSearch(users, msg.from, users.length-1, 0); // ищем пользовател¤ среди зарегестрированых
 		var txt = msg.text; //текст сообщени¤
-		//данные которые вернет модуль
+		//данные которые вернЄт модуль
 		
-		//регистраци¤ пользователя
+		//регистраци¤ пользовател¤
 		if(searchData === null)
 		{
 			if (txt === '/registration') {
@@ -34,7 +34,7 @@ function registration(msg, bot, users)
 				result['users'] = insertData['users'];
 				
 				//выводим клавиатуру главного меню
-				bot.sendMessage(chatId, 'Вы зарегистрированы', menu.main_menu);
+				bot.sendMessage(chatId, 'вы зарегестрированы', menu.main_menu);
 			}
 		}
 		else
@@ -42,15 +42,15 @@ function registration(msg, bot, users)
 			result['userN'] = searchData['userN'];
 			result['users'] = users;
 			if (txt === '/registration') {
-				bot.sendMessage(chatId, 'Вы уже зарегистрированы', menu.main_menu);
+				bot.sendMessage(chatId, 'вы уже зарегестрированы')
 			}
 		}
 		
 		//если пользователь не зарегистрирован возвращаем null
 		if(result['users'] === undefined)
 		{
-			bot.sendMessage(chatId, 'Зарегистрируйтесь с помощью команды /registration')
-			return null; //прерывание функции
+			bot.sendMessage(chatId, 'зарегистрируйтесь с помощью команды /registration')
+			return null//прерывание функции
 		}
 		else
 		{

@@ -9,7 +9,7 @@
                 "hitPoints": 0,
                 "maxHitPoints": 100,
                 "level": 1,
-                "experience": "0555",
+                "experience": "05",
                 "weapon1": {
                     "name": "Бластер",
                     "id": "0",
@@ -19,7 +19,7 @@
                     "needLevel": "1",
                     "price": "0"
                 },
-                "weaponCooldown1": 1499683531610,
+                "weaponCooldown1": 1499281317893,
                 "weapon2": null,
                 "weaponCooldown2": 0,
                 "equip1": null,
@@ -29,98 +29,9 @@
                 "effects": []
             },
             "state": "main_menu",
-            "money": 103,
-            "enemy": 192599581,
+            "money": 101,
+            "enemy": 209632390,
             "chatId": 163301572,
-            "inventory": [
-                {
-                    "name": "Бластер",
-                    "id": "0",
-                    "type": "Weapon",
-                    "damage": "10",
-                    "cooldown": "0.3",
-                    "needLevel": "1",
-                    "price": "0"
-                }
-            ],
-            "swapItemN": 0
-        },
-        {
-            "last_name": "Sogos",
-            "first_name": "Alex",
-            "username": "alex_sogos",
-            "id": 192599581,
-            "robot": {
-                "hitPoints": 90,
-                "level": 3,
-                "experience": -48,
-                "weapon1": {
-                    "name": "Бластер",
-                    "id": "0",
-                    "type": "Weapon",
-                    "damage": "10",
-                    "cooldown": "0.3",
-                    "needLevel": "1",
-                    "price": "0"
-                },
-                "weaponCooldown1": 1499683540466,
-                "weapon2": null,
-                "weaponCooldown2": 0,
-                "equip1": null,
-                "equipCooldown1": 0,
-                "equip2": null,
-                "equipCooldown2": 0,
-                "effects": []
-            },
-            "state": "main_menu",
-            "money": null,
-            "enemy": 163301572,
-            "chatId": 192599581,
-            "inventory": [
-                {
-                    "name": "Бластер",
-                    "id": "0",
-                    "type": "Weapon",
-                    "damage": "10",
-                    "cooldown": "0.3",
-                    "needLevel": "1",
-                    "price": "0"
-                }
-            ],
-            "swapItemN": 0
-        },
-        {
-            "last_name": "Khorkhordin",
-            "first_name": "Yaroslav",
-            "username": "huyariks",
-            "id": 209632390,
-            "robot": {
-                "hitPoints": 0,
-                "maxHitPoints": 100,
-                "level": 3,
-                "experience": "0540210",
-                "weapon1": null,
-                "weaponCooldown1": 0,
-                "weapon2": {
-                    "name": "Бластер",
-                    "id": "0",
-                    "type": "Weapon",
-                    "damage": "10",
-                    "cooldown": "0.3",
-                    "needLevel": "1",
-                    "price": "0"
-                },
-                "weaponCooldown2": 1499282113196,
-                "equip1": null,
-                "equipCooldown1": 0,
-                "equip2": null,
-                "equipCooldown2": 0,
-                "effects": []
-            },
-            "state": "main_menu",
-            "money": 196,
-            "enemy": 226664419,
-            "chatId": 209632390,
             "inventory": [
                 {
                     "name": "Бластер",
@@ -383,48 +294,6 @@
                 }
             ],
             "swapItemN": 3
-        },
-        {
-            "first_name": "YuK",
-            "id": 376313578,
-            "robot": {
-                "hitPoints": 40,
-                "level": 3,
-                "experience": -48,
-                "weapon1": {
-                    "name": "Бластер",
-                    "id": "0",
-                    "type": "Weapon",
-                    "damage": "10",
-                    "cooldown": "0.3",
-                    "needLevel": "1",
-                    "price": "0"
-                },
-                "weaponCooldown1": 1499449538484,
-                "weapon2": null,
-                "weaponCooldown2": 0,
-                "equip1": null,
-                "equipCooldown1": 0,
-                "equip2": null,
-                "equipCooldown2": 0,
-                "effects": []
-            },
-            "state": "pre_bag",
-            "money": null,
-            "enemy": 163301572,
-            "chatId": 376313578,
-            "inventory": [
-                {
-                    "name": "Бластер",
-                    "id": "0",
-                    "type": "Weapon",
-                    "damage": "10",
-                    "cooldown": "0.3",
-                    "needLevel": "1",
-                    "price": "0"
-                }
-            ],
-            "swapItemN": 0
         }
     ]
 }

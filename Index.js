@@ -4,7 +4,6 @@ console.log('loading...10%');
 var fs = require('fs');
 console.log('loading...20%');
 var token = '377888102:AAHsFyUhfmAJEvXlifxsjP-NrvgnOxLSsns';
-//var token = '403501972:AAFXP-COPQJZSPD6fyChaECsfzMcj1y08dA';
 console.log('loading...30%');
 var bot = new TelegramBot(token, {polling: true});
 console.log('loading...40%');
@@ -73,5 +72,5 @@ bot.on('message', function (msg) {
 			users[fightData.enemyN] = fightData.enemy;
 		}
 	}
-	fs.writeFileSync('./Databases/Users.json', JSON.stringify({users}, null, 4));
+	fs.writeFileSync('/Users/aroslavhorhordin/Desktop/BlindWar/Databases/Users.json', JSON.stringify({users}, null, 4));
 });

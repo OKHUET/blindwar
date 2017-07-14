@@ -108,7 +108,7 @@ function searchF(txt, user, bot)
 			else
 			{
 				console.log('User go out');
-				bot.sendMessage(chatId, 'Для того чтобы искать противника нужно иметь хотя бы одно оружие');
+				bot.sendMessage(chatId, 'Для того чтобы искать противника нужно иметь хотя бы одно оружие')
 			}
 		}
 	}
